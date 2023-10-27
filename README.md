@@ -17,7 +17,7 @@ Cenários de teste:
 
 - Entre na raiz do projeto e execute
 
-- `docker-compose up ´`
+- `docker-compose up `
 
 ## Configurando ambiente python3
 
@@ -31,8 +31,11 @@ Cenários de teste:
 
 - `pip install locust`
 
-- `locust -f locustfile.py`
+- `locust -f locustfile.py --csv=results`
 
 ## Configurando interface do locust
 
 - Adicione por exemplo: 1000 usuários e 100 de spawn rate
+## Aplicações
+- Locust: http://localhost:8089
+- Wordpress no nginx: http://localhost:80
