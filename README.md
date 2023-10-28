@@ -31,7 +31,7 @@ Cenários de teste:
 
 - `pip install locust`
 
-- `locust -f locustfile.py --csv=results`
+- `locust -f locustfile.py --csv=results --headless -u 100 --run-time 60`
 
 ## Configurando interface do locust
 
